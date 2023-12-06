@@ -5,15 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YearUP Hackathon</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
 
- <header class="container">
-
-    <h1 class="logo">
-        <a href="index.html">Hackup</a>
-     </h1>
-
+<header class="container">
+    <h1 id="logo">
+        <a href="index.html">HackUp</a>
+    </h1>
 
     <nav class="primary-nav">
         <ul>
@@ -22,7 +38,56 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+</header>
 
- </header>
+<!-- Hero -->
+<section class="hero container">
+    <h2>Dedicated to Backend Development</h2>
+    <p>Every year the brightest <span>App Dev students</span> in Delaware come together to hack each other's portfolio.</p>
+    <p id="redtext">Explore the link provided to register and participate in this year's Portfolio Hackathon! It's an opportunity to not only assess and refine your skills but also to connect with fellow developers. Engage in creative collaboration and devise unique strategies to elevate each other's portfolios, making them stand out with uniqueness and extravagance.</p>
+    <br>
+    <a class="btn btn-alt" href="contact.html">Register</a>
+</section>
+
+<!-- Table Section -->
+<section class="container">
+    <h2>Event Details</h2>
+
+    <table>
+        <tr>
+            <th>Our Mission</th>
+            <th>How You Can Participate</th>
+            <th>Guest Speakers</th>
+        </tr>
+        <tr>
+            <td>Our mission is to provide a dynamic platform for young and aspiring application developers to converge, collaborate, and elevate their skills through a unique portfolio hackathon. We aim to foster an environment where participants can seamlessly share knowledge, network with like-minded individuals, and collectively contribute to the growth of the application development community. By facilitating this innovative exchange, our goal is to empower each participant to refine their portfolios, unlock new possibilities, and forge lasting connections within the thriving landscape of technology and innovation</td>
+            <td>You can get involved with this years <em>Hackathon</em> by simply clicking the register button above and filling out the form to participate in the event. Come Reado to Hack!</td>
+            <td>
+                <li>Bill Gates, Former CEO of Microsoft</li>
+                <li>Mark Zuckerberk, Co Founder of Facebook</li>
+                <li>Steve Jobs, Co Founder of Apple</li>
+            </td>
+        </tr>
+        <!-- Add more rows if needed -->
+    </table>
+
+</section>
+
+<footer class="container primary-footer">
+    <hr />
+    <br />
+    <small>&copy; Year Up Hackathon</small>
+
+    <nav class="footer-nav">
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>

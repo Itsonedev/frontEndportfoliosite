@@ -183,9 +183,6 @@ a:hover{
 }
 
 
-
-
-
 .container div{
     float: left;
     width: 33%;
@@ -196,3 +193,6 @@ footer{
     clear: both;
 }
 
+th{
+    color: #293f50;
+}
